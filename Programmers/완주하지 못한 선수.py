@@ -1,5 +1,6 @@
 def solution(participant, completion):
     answer = ''
+
     
     dictpar = dict()
     dictcom = dict()
