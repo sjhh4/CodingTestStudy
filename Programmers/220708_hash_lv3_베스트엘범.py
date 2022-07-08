@@ -47,6 +47,21 @@ def solution(genres, plays):
     return answer
     '''
 
+    '''
+    enumerate 함수는 for i in enumerate(인자):
+    돌때 i는 (n번째, n번쨰 인자) 형식으로 반환
+    zip 함수는 for i,j in zip(인자1, 인자2):
+    돌때 i는 인자1의 n번째, j는 인자2의 n번째
+
+    list의 합(+)은 리스트 뒤에 리스트 형식으로 붙음
+    ex) [1, 2, 3] + [2, 3, 4] => [1, 2, 3, 2, 3, 4]
+
+    hash table(딕셔너리) 만들때에는 get함수 무조건 쓴다고 생각!
+    크기 순서대로 정렬하기 힘들다?!  ->  정렬하고 싶은 데이터(주로 hash table의 value값)를
+    list 형태로 만들어서 .sort(reverse = True), sorted(인자, ket = 정렬할 기준(ex 람다함수),reverse = True) 생각하기!
+
+    lamda 함수 공부하기!
+    '''
 
 
 
