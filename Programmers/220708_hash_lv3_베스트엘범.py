@@ -40,8 +40,18 @@ def solution(genres, plays):
         ingenre[genres[i]] += [(i, plays[i])]
     print(ingenre)
     for i in ingenre:
-        i.sort(key = lambda x: x[1], reverse = True)
-        
+        ingenre[i].sort(key = lambda x: x[1], reverse = True)
+    
+    print(ingenre)
+    for i in range(len(total_play)):
+        a = max(total_play)
+        b = ingenre[a]
+        print(b)
+        for j in range(2):
+            answer.append(b.pop(0)[0])
+            print(answer)
+        del total_play[a]
+    print(answer)
     return answer
 
     '''
